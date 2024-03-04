@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.container {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header img {
+  width: 50px;
+}
+
+.input-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.input-section input {
+  height: 35px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.input-section button {
+  height: 35px;
+  width: 50px;
+  font-weight: 600;
+  color: #fff;
+  background-color: rgb(60, 58, 58);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.input-section button:hover {
+  background-color: black;
+}
+
+.added-tasks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  padding-bottom: 15px;
+}
+
+.added-tasks ul {
+  display: flex;
+  gap: 20px;
+  margin-left: 100px;
+}
+
+.added-tasks ul li {
+  width: 210px;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  font-style: italic;
+  color: cadetblue;
+}
+
+.hidden {
+  display: none;
+}
